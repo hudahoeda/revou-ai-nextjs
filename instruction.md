@@ -143,13 +143,15 @@ revou-ai-nextjs
 ```
 
 ## Directory Descriptions
+```
 app/: Contains Next.js pages, layout, and global styling.
 lib/: Utility functions and support files.
 components.json: UI components configuration.
 tailwind.config.ts: Tailwind CSS configuration.
 tsconfig.json: TypeScript configuration files.
+```
 
 ## Additional Considerations
-Security: Ensure that user data (e.g., job application info) is secure and accessible only to authenticated users.
-Data Privacy: Clearly communicate the handling of user-submitted data and ensure compliance with relevant data protection regulations.
-Maintenance & Scalability: Plan for future enhancements, such as adding more AI agents or expanding the analytics capabilities.
+- Security: Ensure that user data (e.g., job application info) is secure and accessible only to authenticated users.
+- Data Privacy: Clearly communicate the handling of user-submitted data and ensure compliance with relevant data protection regulations.
+- Maintenance & Scalability: Plan for future enhancements, such as adding more AI agents or expanding the analytics capabilities.
